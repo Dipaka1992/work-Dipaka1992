@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/echarts.min.js"></script>
+    <script src="js/walden.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        黑龙江省13城市空气质量
+    </div>
+
+
+    <div class="title" style="">黑龙江省13城市环境空气AQI指数</div>
+    <div class="chats">
+
+        <div class="title_fu">更新时间：2017年12月6日8时</div>
+
+
+        这里是地图内容区域
+    </div>
+
+
+    <div class="title" style="margin-top:12px;">空气质量排名</div>
+
+
+    <div class="tableData">
+        <div class="title_fu">更新时间：2017年12月6日8时</div>
+        <table>
+
+            <thead>
+            <tr>
+                <td width="15%" class="text-center">排名</td>
+                <td width="15%" class="text-center">城市名称</td>
+                <td width="15%" class='text-center'>AQI</td>
+                <td width="15%" class="text-center">等级</td>
+                <td width="15%" class='text-center'>PM2.5浓度</td>
+                <td width="20%" class='text-center'>PM10浓度</td>
+            </tr>
+            </thead>
+            <tr>
+                <td class='text-center'>
+                    1
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    2
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importYellow">良</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    3
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importRed">轻度污染</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    4
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    5
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    6
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    7
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    8
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+            <tr>
+                <td class='text-center'>
+                    9
+                </td>
+                <td class="text-center">大兴安岭地区</td>
+                <td class='text-center'>16</td>
+                <td class="text-center">
+                    <span class="importLeaf">优</span>
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+                <td class='text-center'>
+                    5ug/m2
+                </td>
+            </tr>
+
+
+        </table>
+    </div>
+
+
+    <div class="title" style="margin-top:12px;">AQI与指数24小时变化趋势</div>
+    <div class="chats">
+
+        <div class="title_fu">更新时间：2017年12月6日8时</div>
+
+        <div id="main" style="width: 100%;height:400px;">
+        </div>
+    </div>
+
+
+    <div class="title" style="margin-top:12px;">AQI说明</div>
+    <div class="AQI" id="AQI">
+        <div class="col-md-4">
+            <div class="AQI_K AQI_K1">
+                <h5 style="color: #00c900;">优</h5>
+                <div class="jibie"><label>AQI级别：</label><span style="color: #00c900;">一级</span></div>
+                <div class="shuzhi"><label>AQI数值：</label><span>0-50</span></div>
+                <div class="yingxiang"><label>健康影响：</label><span>空气质量令人满意，基本无空气污染</span></div>
+                <div class="cuoshi"><label>采取措施：</label><span>各类人群可正常活动</span></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            <div class="AQI_K AQI_K2">
+                <h5 style="color: #d9d900;">良</h5>
+                <div class="jibie"><label>AQI级别：</label><span style="color: #d9d900;">二级</span></div>
+                <div class="shuzhi"><label>AQI数值：</label><span>55-100</span></div>
+                <div class="yingxiang"><label>健康影响：</label><span>空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响</span>
+                </div>
+                <div class="cuoshi"><label>采取措施：</label><span>采取措施：建议极少数异常敏感人群应减少户外</span></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="AQI_K AQI_K3">
+                <h5 style="color: #ff7e00;">轻度污染</h5>
+                <div class="jibie"><label>AQI级别：</label><span style="color: #ff7e00;">三级</span></div>
+                <div class="shuzhi"><label>AQI数值：</label><span>101-150</span></div>
+                <div class="yingxiang"><label>健康影响：</label><span>易感人群症状有轻度加剧，健康人群出现刺激症状</span></div>
+                <div class="cuoshi"><label>采取措施：</label><span>建议儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="AQI_K AQI_K4">
+                <h5 style="color: #f1142c;">中度污染</h5>
+                <div class="jibie"><label>AQI级别：</label><span style="color: #f1142c;">四级</span></div>
+                <div class="shuzhi"><label>AQI数值：</label><span>151-200</span></div>
+                <div class="yingxiang"><label>健康影响：</label><span>进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响</span></div>
+                <div class="cuoshi"><label>采取措施：</label><span>建议疾病患者避免长时间、高强度的户外锻练，一般人群适量减少户外运动</span></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="AQI_K AQI_K5">
+                <h5 style="color: #99004c;">重度污染</h5>
+                <div class="jibie"><label>AQI级别：</label><span style="color: #99004c;">五级</span></div>
+                <div class="shuzhi"><label>AQI数值：</label><span>201-300</span></div>
+                <div class="yingxiang"><label>健康影响：</label><span>心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状</span>
+                </div>
+                <div class="cuoshi"><label>采取措施：</label><span>建议儿童、老年人和心脏病、肺病患者应停留在室内，一般人群减少户外运动活动</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="AQI_K AQI_K6">
+                <h5 style="color: #6e0000;">严重污染</h5>
+                <div class="jibie"><label>AQI级别：</label><span style="color: #6e0000;">六级</span></div>
+                <div class="shuzhi"><label>AQI数值：</label><span>&#62;300</span></div>
+                <div class="yingxiang"><label>健康影响：</label><span>健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病</span>
+                </div>
+                <div class="cuoshi"><label>采取措施：</label><span>建议儿童、老年人和病人应当留在室内，避免体力消耗，一般人群应避免户外活动</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="height: 34px;line-height: 34px;text-align: center;font-size: 15px;background:#FFF;">
+        主办单位：黑龙江省环境监测中心站  研发单位：北京金水永利科技有限公司
+    </div>
+</div>
+
+</body>
+
+
+
+
+<script type="text/javascript">
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'), 'walden');
+
+    // 指定图表的配置项和数据
+    option = {
+        title: {
+            text: '',
+            subtext: ''
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data: ['月度解决率', '累计解决率','累计解决率11']
+        },
+        toolbox: {
+            show: true,
+            feature: {
+                dataZoom: {},
+                dataView: {
+                    readOnly: false
+                },
+                magicType: {
+                    type: ['line', 'bar']
+                },
+                restore: {},
+                saveAsImage: {}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['00:00', '1:00', '2:00', '3:00', '4:00','5:00', '6:00', '7:00', '8:00', '9:00', '10:00', '11:00', '12:00', '13:00'
+                , '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00']
+        },
+        yAxis: {
+            type: 'value',
+            axisLabel: {
+                formatter: '{value}'
+            }
+        },
+        series: [
+            {
+                name: '月度解决率',
+                type: 'line',
+                data: [92, 96, 99, 91, 96, 103, 100, 92, 96, 99, 91, 96, 103, 100, 115,99, 91, 96, 103, 100, 92, 96, 99,100, 115]
+            },
+            {
+                name: '累计解决率',
+                type: 'line',
+                data: [81, 90, 96, 81, 86, 93, 90, 81, 90, 96, 81, 86, 93, 90, 100, 115,99, 91, 96, 103, 100, 92, 96, 99,100, 115]
+            },
+            {
+                name: '累计解决率11',
+                type: 'line',
+                data: [82, 92, 97, 82, 87, 94, 91, 82, 91, 91, 82, 86, 93, 90, 100, 115,99, 91, 96, 103, 100, 92, 96, 99,100, 115]
+            }
+        ]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+
+    myChart.setOption(option);
+
+
+</script>
+
+
+</html>

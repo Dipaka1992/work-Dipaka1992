@@ -1,0 +1,270 @@
+*{
+    font-family: '微软雅黑';
+}
+
+body{
+    background: #f0f2f5;
+    
+    /*background: url("https://static.pexels.com/photos/552791/pexels-photo-552791.jpeg");*/
+}
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background: #4f9aff;
+    color: #FFF;
+    font-size: 36px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    background: #FFF;
+    font-weight: 300;
+    border-bottom: 1px solid #efefef;
+}
+
+.title:before{
+    content: '';
+    height: 24px;
+    line-height: 24px;
+    width: 5px;
+    background: #4e91ff;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: sub;
+    margin-left: 18px;
+}
+
+.title_fu{
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+
+/*表格数据开始*/
+
+.tableData {
+    background: #fff;
+    position: relative;
+    padding: 12px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.tableData thead{
+    background: #e2effd;
+}
+.tableData table{
+    width: 1155px;
+}
+.tableData table td {
+    border: 1px solid #e6ebf5;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.text-pl12 {
+    padding-left: 12px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*表格数据结束*/
+
+/*标签开始*/
+.importOut {
+    font-size: 13px;
+    color: rgb(229, 28, 35);
+    border: 1px solid rgb(229, 28, 35);
+    border-radius: 3px;
+    background-color: rgba(229, 28, 35, 0.361);
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.importSuccess {
+    font-size: 13px;
+    color: rgb(0, 150, 136);
+    border: 1px solid rgb(0, 150, 136);
+    border-radius: 3px;
+    background-color: rgba(107, 205, 7, 0.361);
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.importRed{
+    border: 1px solid #fe8800;
+    border-radius: 3px;
+    background: #fe8800;
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    color:#FFF;
+}
+
+.importGreen{
+    color: rgb(0, 150, 136);
+    border: 1px solid #fbd029;
+    border-radius: 3px;
+    background-color: #fbd029;
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.importYellow{
+    font-size: 13px;
+    color: rgb(207, 124, 0);
+    border: 1px solid #fbd029;
+    border-radius: 3px;
+    background: #fbd029;
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display:inline-block;
+    color: #ffffff;
+}
+
+
+.importLeaf{
+    font-size: 13px;
+    color: rgb(116, 163, 62);
+    border: 1px solid rgb(107, 205, 7);
+    border-radius: 3px;
+    background: rgb(107, 205, 7);
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display:inline-block;
+    color: #FFF;
+}
+
+/*标签结束*/
+
+
+/*图表样式开始*/
+.chats{
+    background: #fff;
+    position: relative;
+    padding: 12px 20px 20px 20px;
+    overflow: hidden;
+
+}
+
+
+
+/*AQI开始*/
+
+.AQI{
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1px;
+
+}
+
+
+.AQI_K{
+    padding: 8px 8px;
+    margin-left: 20px;
+}
+.AQI_K1 {
+    background: url("../images/AQI_bg1.png") no-repeat;
+    width: 361px;
+    height: 244px;
+    float: left;
+
+}
+
+#AQI h5{
+    color: #00c900;
+    font-size: 18px;
+    margin-top:12px;
+}
+
+.jibie{
+    overflow: hidden;
+    width: 200px;
+    font-size: 14px;
+    margin-top:25px;
+}
+.shuzhi{
+    width: 200px;
+    font-size: 14px;
+    margin-top:15px;
+}
+
+.yingxiang{
+    width: 316px;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 18px;
+}
+
+.cuoshi{
+    width: 316px;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+
+
+.AQI_K2 {
+    background: url("../images/AQI_bg2.png") no-repeat;
+    width: 361px;
+    height: 244px;
+    float: left;
+}
+
+.AQI_K3 {
+    background: url("../images/AQI_bg3.png") no-repeat;
+    width: 361px;
+    height: 244px;
+    float: left;
+}
+
+.AQI_K4 {
+    background: url("../images/AQI_bg4.png") no-repeat;
+    width: 361px;
+    height: 244px;
+    float: left;
+}
+
+.AQI_K5 {
+    background: url("../images/AQI_bg5.png") no-repeat;
+    width: 361px;
+    height: 244px;
+    float: left;
+}
+
+.AQI_K6 {
+    background: url("../images/AQI_bg6.png") no-repeat;
+    width: 361px;
+    height: 244px;
+    float: left;
+}
+
