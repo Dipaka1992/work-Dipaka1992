@@ -89,31 +89,31 @@ body{
 /*表格数据结束*/
 
 /*标签开始*/
-.importOut {
+.importyou {
     font-size: 13px;
-    color: rgb(229, 28, 35);
-    border: 1px solid rgb(229, 28, 35);
+    color: #FFF;
+    border: 1px solid #6bcd07;
     border-radius: 3px;
-    background-color: rgba(229, 28, 35, 0.361);
+    background: #6bcd07;
     width: 66px;
     height: 24px;
     line-height: 24px;
     display: inline-block;
 }
 
-.importSuccess {
+.importliang {
     font-size: 13px;
-    color: rgb(0, 150, 136);
-    border: 1px solid rgb(0, 150, 136);
+    color: #FFF;
+    border: 1px solid #fbd22c;
     border-radius: 3px;
-    background-color: rgba(107, 205, 7, 0.361);
+    background: #fbd22c;
     width: 66px;
     height: 24px;
     line-height: 24px;
     display: inline-block;
 }
 
-.importRed{
+.importqingdu{
     border: 1px solid #fe8800;
     border-radius: 3px;
     background: #fe8800;
@@ -124,43 +124,58 @@ body{
     color:#FFF;
 }
 
-.importGreen{
-    color: rgb(0, 150, 136);
-    border: 1px solid #fbd029;
+.importzhongdu{
+    color: #FFF;
+    border: 1px solid #fe0000;
     border-radius: 3px;
-    background-color: #fbd029;
+    background-color: #fe0000;
     width: 66px;
     height: 24px;
     line-height: 24px;
     display: inline-block;
 }
 
-.importYellow{
+.importzhong{
     font-size: 13px;
-    color: rgb(207, 124, 0);
-    border: 1px solid #fbd029;
+    color: #FFF;
+    border: 1px solid #cc0001;
     border-radius: 3px;
-    background: #fbd029;
+    background: #cc0001;
     width: 66px;
     height: 24px;
     line-height: 24px;
     display:inline-block;
-    color: #ffffff;
 }
 
 
-.importLeaf{
+.importyanzhong{
     font-size: 13px;
-    color: rgb(116, 163, 62);
-    border: 1px solid rgb(107, 205, 7);
+    border: 1px solid #62001e;
     border-radius: 3px;
-    background: rgb(107, 205, 7);
+    background: #62001e;
     width: 66px;
     height: 24px;
     line-height: 24px;
     display:inline-block;
     color: #FFF;
 }
+
+.importwuxiao{
+	 font-size: 13px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    background: #b7b7b7;
+    width: 66px;
+    height: 24px;
+    line-height: 24px;
+    display:inline-block;
+    color: #FFF;
+	
+}
+
+
+
+
 
 /*标签结束*/
 
@@ -182,7 +197,7 @@ body{
     background: #ffffff;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
 
 }
 
@@ -266,5 +281,16 @@ body{
     width: 361px;
     height: 244px;
     float: left;
+}
+
+
+.footer{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 15px;
+	background:#FFF;
+	border-top:1px;
+	background: url('../images/footer.png') repeat-x;
 }
 
