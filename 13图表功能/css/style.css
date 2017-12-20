@@ -31,6 +31,7 @@ body{
     background: #FFF;
     font-weight: 300;
     border-bottom: 1px solid #efefef;
+
 }
 
 .title:before{
@@ -293,4 +294,43 @@ body{
 	border-top:1px;
 	background: url('../images/footer.png') repeat-x;
 }
+
+sup{
+	vertical-align: super!important;
+}
+
+
+/*选择时间开始*/
+#timeSelect{
+    float: right;
+    height: 30px;
+    width: 243px;
+}
+
+#timeSelect label{
+    font-size: 14px;
+}
+
+#timeSelect select{
+    width: 150px;
+}
+#timeSelect .getTime{
+    height: 28px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+}
+
+/*选择时间结束*/
+
+.timeTitle{
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    background: #FFF;
+    font-weight: 300;
+    border-bottom: 1px solid #efefef;
+}
+
+
 

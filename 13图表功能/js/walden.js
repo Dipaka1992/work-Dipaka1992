@@ -42,12 +42,13 @@
         "line": {
             "itemStyle": {
                 "normal": {
-                    "borderWidth": "2"
+                    "borderWidth": "1"
                 }
             },
             "lineStyle": {
                 "normal": {
-                    "width": "2"
+                    "width": "2",
+                   
                 }
             },
             "symbolSize": "4",
@@ -57,7 +58,7 @@
         "radar": {
             "itemStyle": {
                 "normal": {
-                    "borderWidth": "2"
+                    "borderWidth": "1"
                 }
             },
             "lineStyle": {
@@ -481,7 +482,18 @@
         "visualMap": {
             "color": [
                 "#2a99c9",
-                "#afe8ff"
+                "#afe8ff",
+                "#4537e0",
+                "#a0cf1a",
+                "#6cc414",
+                "#e64a28",
+                "#e68d26",
+                "#c9c217",
+                "#9515e3",
+                "#db2828",
+                "#333333",
+                "#17aeb8",
+                "#38b824"
             ]
         },
         "dataZoom": {
