@@ -1,0 +1,36 @@
+#tab{
+    width: 300px;
+}
+#tab .tab_title{
+    width: 200px;
+}
+#tab .tab_title div{
+    height: 25px;
+    line-height: 25px;
+    width: 22%;
+    float: left;
+    background: #cee3f2;
+    color: #595959;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 3%;
+}
+#tab .tab_title div.active{
+    background: #3499db;
+    color: #FFF;
+
+}
+#tab .tab_content{
+    clear: left;
+}
+#tab .tab_content div{
+    display: none;
+    height: 400px;
+    background: #DDD;
+}
+
+#tab .tab_content div.active{
+    display: block;
+}
