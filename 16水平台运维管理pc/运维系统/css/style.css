@@ -1,0 +1,620 @@
+.Device {
+    width: 1280px;
+    height: 799px;
+    margin: 0 auto;
+    background: url("../images/shebei_bg.png") no-repeat;
+    position: relative;
+}
+
+.DeviceState .active {
+    background: #37f616;
+}
+
+
+.dot{
+    cursor: pointer;
+}
+
+
+
+.dot1 {
+    height: 9px;
+    width: 20px;
+    background: red;
+    position: absolute;
+    top: 30px;
+    left: 62px;
+
+}
+
+.dot1:after,.dot2:after,.dot3:after,.dot4:after,.dot5:after,.dot19:after{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: -26px;
+    right: -25px;
+    bottom: -32px;
+}
+
+.dot1 .active {
+    background: red;
+}
+
+.dot2 {
+    height: 9px;
+    width: 17px;
+    position: absolute;
+    top: 155px;
+    left: 64px;
+    background: red;
+}
+
+.dot3 {
+    height: 10px;
+    width: 13px;
+    background: red;
+    position: absolute;
+    top: 298px;
+    left: 132px;
+
+}
+
+.dot4 {
+    height: 10px;
+    width: 22px;
+    background: red;
+    position: absolute;
+    top: 409px;
+    left: 107px;
+}
+
+.dot5 {
+    height: 9px;
+    width: 20px;
+    background: red;
+    position: absolute;
+    top: 514px;
+    left: 107px;
+}
+
+.dot6 {
+    position: absolute;
+    top: 360px;
+    left: 194px;
+    height: 14px;
+    width: 20px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot7 {
+    position: absolute;
+    top: 392px;
+    left: 194px;
+    height: 14px;
+    width: 20px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot8 {
+    position: absolute;
+    top: 194px;
+    left: 360px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot9 {
+    position: absolute;
+    top: 53px;
+    left: 387px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot10 {
+    position: absolute;
+    top: 51px;
+    left: 642px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot11 {
+    position: absolute;
+    top: 120px;
+    left: 719px;
+    height: 14px;
+    width: 21px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot12 {
+    position: absolute;
+    top: 463px;
+    left: 241px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot13 {
+    position: absolute;
+    top: 462px;
+    left: 299px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot14 {
+    position: absolute;
+    top: 462px;
+    left: 385px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot15 {
+    position: absolute;
+    top: 462px;
+    left: 485px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot16 {
+    position: absolute;
+    top: 462px;
+    left: 640px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot17 {
+    position: absolute;
+    top: 462px;
+    left: 769px;
+    height: 20px;
+    width: 14px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot18 {
+    position: absolute;
+    top: 463px;
+    left: 971px;
+    height: 20px;
+    width: 15px;
+    border-radius: 26px;
+    background: red;
+}
+
+.dot19 {
+    position: absolute;
+    top: 379px;
+    left: 558px;
+    height: 11px;
+    width: 12px;
+    border-radius: 0px;
+    background: red;
+}
+
+.dot20 {
+    position: absolute;
+    top: 51px;
+    left: 151px;
+    height: 21px;
+    width: 17px;
+    background: red;
+    border-radius: 14px;
+}
+
+.dot21 {
+    position: absolute;
+    top: 53px;
+    left: 541px;
+    height: 19px;
+    width: 15px;
+    background: red;
+    border-radius: 14px;
+}
+
+/*系统状态点位开始*/
+
+.systemState .active {
+    background: #39fd17;
+}
+
+.dot22 {
+    position: absolute;
+    top: 621px;
+    left: 862px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+.dot23 {
+    position: absolute;
+    top: 646px;
+    left: 862px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+/*系统状态结束*/
+
+/*屏幕状态开始*/
+
+.screenState {
+    height: 19px;
+    width: 53px;
+    background: #0c0f32;
+    position: absolute;
+    top: 588px;
+    left: 781px;
+    color: #fffd00;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.pingmu .active {
+    background: #39fd17;
+}
+
+.dot24 {
+    position: absolute;
+    top: 686px;
+    left: 813px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+.dot25 {
+    position: absolute;
+    top: 687px;
+    left: 905px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+.dot26 {
+    position: absolute;
+    top: 687px;
+    left: 993px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+/*屏幕状态结束*/
+
+.dot27 {
+    position: absolute;
+    top: 737px;
+    left: 812px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+.dot28 {
+    position: absolute;
+    top: 737px;
+    left: 905px;
+    height: 18px;
+    width: 14px;
+    background: #8e8e8e;
+    border-radius: 50%;
+}
+
+.Device .active {
+    background: #37f616;
+}
+
+.CODcr {
+    height: 100px;
+    width: 65px;
+    position: relative;
+    top: 292px;
+    left: 788px;
+    opacity: 1;
+    color: #FFF;
+    line-height: 93px;
+    text-align: center;
+}
+
+.CODmn {
+    height: 100px;
+    width: 65px;
+    position: relative;
+    top: 192px;
+    left: 869px;
+    opacity: 1;
+    color: #FFF;
+    line-height: 93px;
+    text-align: center;
+}
+
+.anDan {
+    height: 100px;
+    width: 65px;
+    position: relative;
+    top: 92px;
+    left: 986px;
+    opacity: 1;
+    color: #FFF;
+    line-height: 93px;
+    text-align: center;
+}
+
+.allLin {
+    height: 104px;
+    position: relative;
+    top: -11px;
+    left: 1065px;
+    opacity: 1;
+    color: #FFF;
+    line-height: 99px;
+    text-align: center;
+    width: 72px;
+}
+
+
+.allDan {
+    height: 104px;
+    position: relative;
+    top: -117px;
+    left: 1152px;
+    opacity: 1;
+    color: #FFF;
+    line-height: 102px;
+    text-align: center;
+    width: 62px;
+}
+
+
+
+
+.wuCanShu {
+    height: 151px;
+    width: 43px;
+    position: relative;
+    top: -317px;
+    left: 359px;
+    opacity: 1;
+    color: #FFF;
+    line-height: 93px;
+    text-align: center;
+}
+
+.CODcr .mouseOver,
+.CODmn .mouseOver,
+.anDan .mouseOver,
+.allLin .mouseOver,
+.allDan .mouseOver,
+.wuCanShu .mouseOver {
+    height: 175px;
+    width: 193px;
+    background: #fff;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 0px #05309d;
+    border-radius: 3px;
+    z-index: 1000;
+    display: none;
+}
+
+.mouseOver {
+    height: 175px;
+    width: 193px;
+    background: #fff;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 0px #05309d;
+    border-radius: 3px;
+    z-index: 1000;
+    display: block;
+}
+
+.mouseOver  .title{
+    font-weight: 500;
+    padding: 0 8px;
+    line-height: 31px;
+    border-bottom: 1px solid #f4f4f4;
+    height: 31px;
+    text-align: left;
+    background: #3a67f6;
+    color: #c7d8ff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 15px;
+}
+
+.rightKey {
+    height: 206px;
+    width: 324px;
+    background: #fff;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 0px #05309d;
+    border-radius: 3px;
+    z-index: 1000;
+    display: none;
+    color: #030303;
+    padding-left: 0px;
+    text-align: left;
+    line-height: 39px;
+    /*border: 1px solid #ffffff;*/
+}
+
+/*箭头*/
+/*.rightKey:after{*/
+    /*content: '';*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border: 6px solid transparent;*/
+    /*border-left-color: #fff;*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 4px;*/
+    /*right: -13px;*/
+
+/*}*/
+.rightKey .title{
+    font-weight: 500;
+    padding: 0 8px;
+    line-height: 31px;
+    border-bottom: 1px solid #f4f4f4;
+    height: 31px;
+    background: #3a67f6;
+    color: #c7d8ff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 15px;
+}
+.rightKey .con label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    width: 67px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.form-control{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    width: 149px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
+
+.mouseOver ul {
+    padding: 0;
+    margin-top: 0px;
+}
+
+.mouseOver ul li {
+    list-style: none;
+    color: #333;
+    text-align: left;
+    padding: 4px;
+    line-height: 18px;
+    font-size: 11px;
+    height: 18px;
+    border: 1px solid #f3f3f3;
+    margin-top: -1px;
+}
+
+.mouseOver ul li label {
+    margin-right: 2px;
+}
+
+/*.CODcr:hover .mouseOver,*/
+/*.CODmn:hover .mouseOver,*/
+/*.anDan:hover .mouseOver,*/
+/*.allLinDan:hover .mouseOver,*/
+/*.wuCanShu:hover .mouseOver{*/
+/*display: block;*/
+/*}*/
+
+.wuCanShuVal {
+    width: 30px;
+    color: #fffd00;
+    font-size: 12px;
+    position: absolute;
+    left: 451px;
+    top: 90px;
+    line-height: 19px;
+}
+
+.wuCanShuVal span {
+    height: 19px;
+    width: 30px;
+    display: block;
+    line-height: 22px
+}
+
+.warning {
+    height: 116px;
+    width: 75px;
+    background: url('../images/warning.png') no-repeat -15px 6px;
+    position: absolute;
+    top: 581px;
+    left: 157px;
+}
+
+.callBack{
+    overflow-y: auto;
+}
+.callBack div{
+    height: 22px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+
+/*通用按钮开始*/
+.btn-primary {
+    color: #FFF;
+    border-radius: 3px;
+    background-color: rgb(0, 117, 194);
+    border: none;
+    height: 28px;
+}
+
+.btn-primary:hover {
+    opacity: .9;
+    border: none;
+    background-color: rgb(0, 117, 194);
+}
+
+.callBack{
+    height: 118px;
+    width: 95%;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+    background: #fcfcfc;
+}
+
+
+
+
+
