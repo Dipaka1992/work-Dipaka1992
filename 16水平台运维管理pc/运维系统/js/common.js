@@ -141,6 +141,21 @@ $(".Device").click(function () {
 });
 
 
+//
+$('.mouseOver').mousedown(function (e) {
+    if(3 == e.which){
+        return false;//阻止链接跳转
+    }
+
+});
+
+$('.rightKey').mousedown(function (e) {
+    if(3 == e.which){
+        return false;//阻止链接跳转
+    }
+
+});
+
 
 
 

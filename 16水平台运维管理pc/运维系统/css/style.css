@@ -349,6 +349,7 @@
     color: #FFF;
     line-height: 93px;
     text-align: center;
+    cursor: pointer;
 }
 
 .CODmn {
@@ -361,6 +362,7 @@
     color: #FFF;
     line-height: 93px;
     text-align: center;
+    cursor: pointer;
 }
 
 .anDan {
@@ -373,6 +375,7 @@
     color: #FFF;
     line-height: 93px;
     text-align: center;
+    cursor: pointer;
 }
 
 .allLin {
@@ -385,6 +388,7 @@
     line-height: 99px;
     text-align: center;
     width: 72px;
+    cursor: pointer;
 }
 
 
@@ -398,6 +402,7 @@
     line-height: 102px;
     text-align: center;
     width: 62px;
+    cursor: pointer;
 }
 
 
@@ -413,6 +418,7 @@
     color: #FFF;
     line-height: 93px;
     text-align: center;
+    cursor: pointer;
 }
 
 .CODcr .mouseOver,
@@ -562,13 +568,15 @@
     left: 451px;
     top: 90px;
     line-height: 19px;
+    cursor: pointer;
 }
 
 .wuCanShuVal span {
     height: 19px;
     width: 30px;
     display: block;
-    line-height: 22px
+    line-height: 22px;
+    cursor: pointer;
 }
 
 .warning {
